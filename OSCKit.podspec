@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'OSCKit/*.h'
   s.libraries = 'c++', 'stdc++'
 
-  s.dependency 'CocoaAsyncSocket', '~> 7.3'
+  s.dependency 'CocoaAsyncSocket', '~> 7.6.6'
 end
 
 # How to publish
